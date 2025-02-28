@@ -1,0 +1,227 @@
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: auto;
+  height: 100vh;
+  background-image: url('signupimg1.png');
+  background-size: 1600px 1000px;
+  align-items: center;
+}
+.account {
+  align-items: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  max-width: 1200px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.login-section {
+  flex: 1;
+  padding: 30px;
+  background: white;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+.image-section {
+  flex: 2;
+  background: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #444;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+select {
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  padding-bottom: 0px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #fbb034;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ffa500;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apple-login,
+.google-login {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  background: #b4b4b4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.apple-login:hover {
+  background: #333;
+  color: white;
+}
+
+.google-login:hover {
+  background: #4285f4;
+  color: white;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+}
+
+.footer-text a {
+  color: #fbb034;
+  text-decoration: none;
+}
+
+.password-field {
+  display: flex;
+  align-items: center;
+}
+
+.password-field input {
+  flex: 1;
+}
+
+.toggle-password {
+  margin-left: -30px;
+  cursor: pointer;
+  color: #999;
+}
+
+.toggle-password:hover {
+  color: #333;
+}
+
+
+
+
+
+
+
+
+/* Header Styles */
+/*
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #001744;
+  color: white;
+  margin-bottom: 800px;
+  margin-left: 100px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar nav ul li {
+  margin: 0 15px;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+  color: #00bfa5;
+} */
